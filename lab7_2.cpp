@@ -31,7 +31,8 @@ int main(){
 	cin >> N;
 	string name[N];
 	float score[N];	
-	while(i < N){
+	while(i < N)
+	{
 		cout << "Name of student " << i+1 << ": ";
 		cin.ignore();
 		getline(cin,name[i]);
